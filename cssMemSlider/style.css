@@ -27,7 +27,7 @@ h1 {
     padding-top: 1rem;
 }
 .slider {
-    height: 80vh;
+    height: auto;
     overflow: hidden;
     border-radius: 20px;
 }
@@ -193,6 +193,9 @@ input {
     }
 }
 @media (max-width: 50rem){
+    h1 {
+        font-size: 1.5rem;
+    }
     .slider-text-wrapper {
         margin-top: 2rem;
     } 
