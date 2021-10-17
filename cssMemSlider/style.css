@@ -94,7 +94,6 @@ input {
     border-radius: 50%;
     cursor: pointer;
     transition: .5s;
-    margin-left: 30px;
 }
 .btn:hover {
     padding: 5px;
@@ -189,6 +188,9 @@ input {
     .wrapper {
         width: 93vw;
     }  
+    .slide-text {
+        font-size: 0.8rem;
+    }
 }
 @media (max-width: 50rem){
     .slider-text-wrapper {
